@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular</title>
+
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <card-news
+        author="Jhean"
+        title="Darth Vader contrata devs"
+        description="Darth Vader procura desenvolvedores para trabalhar com componentes."
+        linkHref="https://www.google.com/Darth-Vader"
+        photo="./assets/darth-vader-coffe.jpg";
+    >
+    </card-news>
+
+    <card-news
+        title="Yoda convence a republica a usar web components"
+        description="Yoda Choca a todos"
+        linkHref="https://www.google.com/yoda"
+    >
+    </card-news>
+
+    <script src="src/components/CardNews.js" defer></script>
+    <script src="src/components/TituloDinamico.js" defer></script>
+</body>
+</html>

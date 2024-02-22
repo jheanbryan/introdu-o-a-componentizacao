@@ -1,2 +1,2 @@
-# introdu-o-a-componentizacao
-Aplicando uma componentização basica
+# introducao-ao-angular
+ Aprendizados do bootcamp Desenvolvimento Frontend com Angular da DIO
